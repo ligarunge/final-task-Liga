@@ -8,7 +8,7 @@ function Grid() {
                             <img src="/images/coverSq2.jpg" className="img-fluid" alt="cover" />
                         </div>
                         <div className="col-3 px-0">
-                            
+                        <img src="/images/bookQuote.jpg" className="img-fluid" alt="cover" />
                             
                         </div>
                         <div className="col-3 px-0">

@@ -12,17 +12,17 @@ function Header() {
                         </Link>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link" to="/">Home</Link>
+                            <Link className="nav-link text-white" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link" to="/register">Register</Link>
+                            <Link className="nav-link text-white" to="/register">Register</Link>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link" to="/aboutus">About us</Link>
+                            <Link className="nav-link text-white" to="/aboutus">About us</Link>
                             </li>
                             <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" to="/categories" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+          <Link className="nav-link dropdown-toggle text-white" to="/categories" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
           </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a className="dropdown-item" href="#">Action</a></li>
