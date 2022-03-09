@@ -71,7 +71,7 @@ function FormVal() {
                         <TextField label="First Name" name="firstName" type="text" />
                         <TextField label="Last Name" name="lastName" type="text" /> 
                          <Field name="country" as="select" className="form-select">
-                            <option value={""}>Select a product</option>
+                            <option value={""}>Select a country</option>
                             {selectOptions}
                         </Field>
                         <ErrorMessage component="div" name="country" style={{ color: 'red', fontSize: '0.8rem' }} />
