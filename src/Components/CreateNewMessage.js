@@ -4,13 +4,14 @@ import { createMessage } from "../API/messages"
 function CreateNewMessage(props) {
 
     const { loadMessages } = props
-    const [newMessage, setNewMessage] = useState('')
     const [newUsername, setNewUsername] = useState('')
+    const [newMessage, setNewMessage] = useState('')
     const [messageCreating, setMessageCreating] = useState(false)
 
     const createMessageAction = async () => {
         setMessageCreating(true)
-        await createMessage(newUsername, newMessage)
+        await createMessage(newUsername)
+        await createMessage(newMessage)
         await loadMessages()
         setMessageCreating(false)
         setNewMessage('')

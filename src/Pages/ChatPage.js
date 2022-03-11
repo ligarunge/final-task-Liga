@@ -1,4 +1,3 @@
-import Chat from "../Components/Chat";
 import ChatLog from "../Components/ChatLog";
 
 function ChatPage() {

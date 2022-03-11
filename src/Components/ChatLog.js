@@ -4,7 +4,7 @@ import CreateNewMessage from "./CreateNewMessage"
 import MessageList from "./MessageList"
 
 function ChatLog() {
-
+   
     const [messages, setMessages] = useState([])
     const [usernames, setUsernames] = useState([])
     const [messagesLoading, setMessagesLoading] = useState(true)
@@ -14,7 +14,6 @@ function ChatLog() {
         const messagesFromBackend = await getMessages()
         setMessages(messagesFromBackend)
         setUsernames(messagesFromBackend)
-
         setMessagesLoading(false)
     }
 
