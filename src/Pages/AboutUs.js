@@ -4,7 +4,7 @@ function AboutUs() {
 
     return(
 
-        <div>
+        <div className="container-fluid" style={{ backgroundImage: "url(/Images/openNotebook.jpg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '140vh' }}>
             <Tabs />
         </div>
     )

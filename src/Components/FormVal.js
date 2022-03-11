@@ -73,7 +73,7 @@ function FormVal() {
                                 {selectOptions}
                             </Field>
                         </div>
-                        <ErrorMessage component="div" name="country" style={{ color: 'red', fontSize: '0.8rem' }} />
+                        <ErrorMessage component="div" className='ms-2' name="country" style={{ color: 'red', fontSize: '0.8rem' }} />
                         <div className='m-2 text-end'>
                             <TextField label="I agree with terms" name="terms" type="checkbox" className="form-check-input m-2" />
                         </div>

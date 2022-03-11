@@ -3,7 +3,7 @@ import "./Carousel.css"
 function Carousel() {
 
     return (
-        <div className="container-fluid">
+        <div className="container-fluid px-0">
             <div id="carouselBooks" className="carousel carousel-dark slide m-0" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselBooks" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

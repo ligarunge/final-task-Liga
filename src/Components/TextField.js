@@ -12,7 +12,7 @@ export const TextField = ({ label, ...props }) => {
                 className={`form-control ${showFeedback ? (meta.error ? 'is-invalid' : 'is-valid') : ''}`}
                 {...field} {...props}
                 autoComplete='off' />
-            <ErrorMessage component="div" name={field.name} style={{ color: 'red', fontSize: '0.8rem' }} />
+            <ErrorMessage component="div" className='ms-2' name={field.name} style={{ color: 'red', fontSize: '0.8rem' }} />
         </div>
     )
 }
