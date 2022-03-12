@@ -1,4 +1,13 @@
+import { useState } from "react"
+
 function Grid() {
+
+    const [imageKids, setImageKids] = useState('/images/pippi.jpg')
+    const showImageKids = (image) => {
+        setImageKids(image)
+        
+    }
+
     return (
         <div className="container-fluid">
             <div className="row">
@@ -15,7 +24,7 @@ function Grid() {
                             <img src="/images/loveInTimes1.jpg" className="img-fluid" alt="cover" />
                         </div>
                         <div className="col-3 px-0">
-                        <img src="/images/pippi.jpg" className="img-fluid" alt="cover" />
+                        <img src={imageKids} className="img-fluid" alt="cover" onMouseLeave={() => showImageKids('/images/pippi.jpg')} onMouseEnter={() => showImageKids('/images/pippiOpac.jpg')} />
                         </div>
                     </div>
                    <div className="row">

@@ -4,22 +4,21 @@ const baseUrl = 'http://localhost:3000/tasks'
 
 export async function getMessages() {
 
-   const response = await axios.get(baseUrl)
-
-   return response.data
+    const response = await axios.get(baseUrl)
+    return response.data
 }
-export async function createMessage(usernameName, messageName) {
+export async function createMessage(title, message) {
     const data = {
-        title: usernameName,
-        message: messageName,
+        title: title,
+        message: message,
     }
 
     await axios.post(baseUrl, data)
 
 }
 
-
-export function deleteMessage(id) {
-
+export async function deleteMessage(id) {
+    const url = `${baseUrl}/${id}`
+    await axios.delete(url)
 }
 

@@ -11,7 +11,7 @@ function Categories() {
                     <div className="card" key={index} style={{ maxWidth: '' }}>
                         <div className="row justify-content-center">
                             <div className="col-md-4">
-                                <img src="/images/cover4.jpg" className="img-fluid rounded" alt="cover" />
+                                <img src={category.img} className="img-fluid rounded" alt="cover" />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">

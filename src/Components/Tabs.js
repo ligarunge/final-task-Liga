@@ -27,8 +27,6 @@ function Tabs() {
                 </div>
             </div>
             </div>
-           
-
         </div>
     )
 }

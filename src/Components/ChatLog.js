@@ -4,16 +4,16 @@ import CreateNewMessage from "./CreateNewMessage"
 import MessageList from "./MessageList"
 
 function ChatLog() {
-   
+
     const [messages, setMessages] = useState([])
-    const [usernames, setUsernames] = useState([])
+
     const [messagesLoading, setMessagesLoading] = useState(true)
 
     const loadMessages = async () => {
         setMessagesLoading(true)
         const messagesFromBackend = await getMessages()
         setMessages(messagesFromBackend)
-        setUsernames(messagesFromBackend)
+
         setMessagesLoading(false)
     }
 
@@ -23,18 +23,29 @@ function ChatLog() {
         // call the setMessages
     }, [])
 
-    let messageList = <div><h5>Loading...</h5></div>
+    let messageList = <div className="m-3 font-baskerville">
+        <div className="spinner-border" style={{width: '3rem', height: '3rem'}} role="status">
+    <span className="visually-hidden">Loading...</span>
+  </div></div>
     if (messagesLoading === false && messages.length > 0) {
-        messageList = <MessageList messages={messages} usernames={usernames} loadMessages={loadMessages} />
+        messageList = <MessageList messages={messages} loadMessages={loadMessages} />
     } else if (messagesLoading === false && messages.length === 0) {
-        <div><h5>No new messages</h5></div>
+        messageList = <div className="m-3 font-baskerville"><h5>No new messages</h5></div>
     }
 
     return (
         <div>
-            {messageList}
-            Create New Message:
-            <CreateNewMessage loadMessages={loadMessages}/>
+            <div className="row justify-content-center m-2">
+                <div className="col-12 rounded" style={{ height: '20rem', backgroundColor: 'whitesmoke', overflowY: 'scroll' }}>
+                    {messageList}
+                </div>
+            </div>
+            <div className="row justify-content-center">
+                <div className="col-12 m-2 font-baskerville">
+                    Create New Message:
+                    <CreateNewMessage loadMessages={loadMessages} />
+                </div>
+            </div>
         </div>
     )
 }
