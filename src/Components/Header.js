@@ -12,10 +12,10 @@ function Header() {
                             </Link>
                         </li>
                         <li className="nav-item mt-3">
-                            <Link className="nav-link text-white" to="/">Home</Link>
+                            <Link className="nav-link text-white" style={{fontSize:'1.2rem'}} to="/">Home</Link>
                         </li>
                         <li className="nav-item dropdown mt-3">
-                            <Link className="nav-link dropdown-toggle text-white" to="/categories" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle text-white" style={{fontSize:'1.3rem'}} to="/categories" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Categories
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -26,13 +26,13 @@ function Header() {
                             </ul>
                         </li>
                         <li className="nav-item mt-3">
-                            <Link className="nav-link text-white" to="/register">Register</Link>
+                            <Link className="nav-link text-white" style={{fontSize:'1.2rem'}} to="/register">Register</Link>
                         </li>
                         <li className="nav-item mt-3">
-                            <Link className="nav-link text-white" to="/chat">Chat</Link>
+                            <Link className="nav-link text-white" style={{fontSize:'1.2rem'}} to="/chat">Chat</Link>
                         </li>
                         <li className="nav-item mt-3">
-                            <Link className="nav-link text-white" to="/aboutus">About us</Link>
+                            <Link className="nav-link text-white" style={{fontSize:'1.2rem'}} to="/aboutus">About us</Link>
                         </li>
                     </ul>
                 </div>
