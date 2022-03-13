@@ -30,7 +30,7 @@ function ChatLog() {
     if (messagesLoading === false && messages.length > 0) {
         messageList = <MessageList messages={messages} loadMessages={loadMessages} />
     } else if (messagesLoading === false && messages.length === 0) {
-        messageList = <div className="m-3 font-baskerville"><h5>No new messages</h5></div>
+        messageList = <div className="m-3 font-baskerville text-center"><h5>No new messages</h5></div>
     }
 
     return (

@@ -6,7 +6,7 @@ function AboutUs() {
 
         <div className="container-fluid" style={{ backgroundImage: "url(/Images/openNotebook.)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '140vh' }}>
             <Tabs />
-            <img className="opacity-50" src="/images/coverSq5.jpg" style={{height: '30rem'}}></img>
+           
         </div>
     )
 }

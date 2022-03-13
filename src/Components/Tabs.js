@@ -5,6 +5,7 @@ function Tabs() {
     return (
         <div className="row pt-5 justify-content-center">
             <div className="col-10">
+                <h2>Tabs</h2>
             <ul className="nav nav-tabs pt-5 m-3" id="myTab" role="tablist">
                 <li className="nav-item" role="presentation">
                     <button className="nav-link active font-baskerville" id="creators-tab" data-bs-toggle="tab" data-bs-target="#products" type="button" role="tab" aria-controls="home" aria-selected="true">

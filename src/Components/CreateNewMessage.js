@@ -24,7 +24,7 @@ function CreateNewMessage(props) {
                     <input
                         type="text"
                         placeholder="Username"
-                        className="m-2 rounded text-start"
+                        className="m-2 rounded border-0 text-start"
                         value={newUsername}
                         onChange={(e) => setNewUsername(e.target.value)}
                     ></input>
@@ -36,7 +36,7 @@ function CreateNewMessage(props) {
                         type="text"
                         style={{ height: "5rem", width: "20rem", textAlign :'top' }}
                         placeholder="Message"
-                        className="m-2 rounded"
+                        className="m-2 rounded border-0"
                         value={newMessage}
                         onChange={(e) => setNewMessage(e.target.value)}
                     ></input>

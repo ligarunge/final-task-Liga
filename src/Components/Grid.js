@@ -24,10 +24,10 @@ function Grid() {
                             <img src="/images/coverSq2.jpg" className="img-fluid" alt="cover" />
                         </div>
                         <div className="col-3 px-0">
-                        <Link to="/categories/0">
-                            <img src={imageFiction} className="img-fluid" alt="cover"
-                                onMouseLeave={() => showImageFiction('/images/bookQuote.jpg')} onMouseEnter={() => showImageFiction('/images/bookQuoteOpac.jpg')} />
-                        </Link>
+                            <Link to="/categories/0">
+                                <img src={imageFiction} className="img-fluid" alt="cover"
+                                    onMouseLeave={() => showImageFiction('/images/bookQuote.jpg')} onMouseEnter={() => showImageFiction('/images/bookQuoteOpac.jpg')} />
+                            </Link>
                         </div>
                         <div className="col-3 px-0">
                             <img src="/images/loveInTimes1.jpg" className="img-fluid" alt="cover" />
@@ -55,10 +55,10 @@ function Grid() {
                         <div className="col-3 px-0">
                             <div className="row">
                                 <div className="col-12">
-                                <Link to="/categories/1">
-                                <img src={imageCrime} className="img-fluid" alt="cover"
-                                    onMouseLeave={() => showImageCrime('/images/coverSq5.jpg')} onMouseEnter={() => showImageCrime('/images/crimeOpac.jpg')} />
-                            </Link>
+                                    <Link to="/categories/1">
+                                        <img src={imageCrime} className="img-fluid" alt="cover"
+                                            onMouseLeave={() => showImageCrime('/images/coverSq5.jpg')} onMouseEnter={() => showImageCrime('/images/crimeOpac.jpg')} />
+                                    </Link>
                                 </div>
                             </div>
                             <div className="row">

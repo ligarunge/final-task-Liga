@@ -29,7 +29,7 @@ function Categories() {
                     </div>
                     <div className="row m-4">
                         <div className="col-md-2 p-0">
-                        <img src={category.img1} className="img-fluid rounded" style={{height: '13rem'}} alt="cover" />
+                            <img src={category.img1} className="img-fluid rounded" style={{height: '13rem'}} alt="cover" />
                         </div>
                         <div className="col-md-2 p-0">
                         <img src={category.img2} className="img-fluid rounded" style={{height: '13rem'}} alt="cover" />
