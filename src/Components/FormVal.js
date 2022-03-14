@@ -62,11 +62,11 @@ function FormVal() {
                 <div>
                     <h4 className='mt-3 font-baskerville text-center'>Sign Up</h4>
                     <Form >
-                        <TextField placeholder="Username" name="username" type="text" />
-                        <TextField placeholder="Email" name="email" type="email" />
-                        <TextField placeholder="Password" name="password" type="password" />
-                        <TextField placeholder="Confirm password" name="confirmPassword" type="password" />
-                        <TextField placeholder="First Name" name="firstName" type="text" />
+                        <TextField placeholder="*Username" name="username" type="text" />
+                        <TextField placeholder="*Email" name="email" type="email" />
+                        <TextField placeholder="*Password" name="password" type="password" />
+                        <TextField placeholder="*Confirm password" name="confirmPassword" type="password" />
+                        <TextField placeholder=" First Name" name="firstName" type="text" />
                         <div className='mt-4'>
                             <Field name="country" as="select" className="form-select">
                                 <option value={""}>Select a country</option>
@@ -78,7 +78,7 @@ function FormVal() {
                             <TextField label="I agree with terms" name="terms" type="checkbox" className="form-check-input m-2" />
                         </div>
                         <div className='text-center mb-2'>
-                            <button className="btn btn-primary mt-2 mb-3 text-center" onSubmit={onSubmit} type="submit" disabled={!formik.isValid}>Sign Up</button>
+                            <button className="btn btn-success mt-2 mb-3 text-center" onSubmit={onSubmit} type="submit" disabled={!formik.isValid}>Sign Up</button>
                         </div>
                     </Form>
                 </div>

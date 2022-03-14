@@ -23,8 +23,8 @@ function ChatLog() {
         // call the setMessages
     }, [])
 
-    let messageList = <div className="m-3 font-baskerville">
-        <div className="spinner-border" style={{width: '3rem', height: '3rem'}} role="status">
+    let messageList = <div className="m-3 font-baskerville text-center">
+        <div className="spinner-border" style={{width: '2rem', height: '2rem'}} role="status">
     <span className="visually-hidden">Loading...</span>
   </div></div>
     if (messagesLoading === false && messages.length > 0) {
@@ -42,7 +42,7 @@ function ChatLog() {
             </div>
             <div className="row justify-content-center">
                 <div className="col-12 m-2 font-baskerville">
-                    Create New Message:
+                   <span className="ms-2">Create New Message:</span> 
                     <CreateNewMessage loadMessages={loadMessages} />
                 </div>
             </div>

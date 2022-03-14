@@ -1,27 +1,25 @@
 import { useState } from "react"
+import getCategories from "../Data/getCategories"
 import getCategoryItem from "../Data/getCategoryItem"
 
 function CategoryItem() {
 
-    const categoryItems = getCategoryItem()
+    const categoryItems = getCategories()
     const [keyWord, setKeyWord] = useState('')
 
     const categoryItemsList = categoryItems
         .filter(categoryItem => keyWord === '' ||
             categoryItem.title.toLowerCase().includes(keyWord.toLowerCase()))
                 .map((categoryItem, index) => {
-
                     return (
-                        <div className="col-2 m-3 align-self-center rounded p-1" key={index} style={{ backgroundColor: 'whitesmoke' }}>
-                            <div className="row text-center">
-                            </div>
-                            <a href={categoryItem.imgItemDesc} data-fancybox="galleryFiction">
-                                <img src={categoryItem.imgItem} className="img-fluid rounded" alt="cover" />
-                            </a>
-                        </div>
+                        categoryItem.itemProps.map((itemProp, i) => {
+                            return (
+                                <p key={index}>{itemProp}</p>
+                            )
+                        })
                     )
+                                 
                 })
-
     return (
         <div>
             <div className="row justify-content-end align-middle">

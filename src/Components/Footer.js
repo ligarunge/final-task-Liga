@@ -8,7 +8,7 @@ function Footer() {
             <div className="row" style={{ backgroundColor: 'rgb(75, 104, 89)' }}>
                 <div className="col-12">
                     <div className="row text-center mt-5 text-white font-baskerville">
-                        <h3>STAY CONNECTED</h3>
+                        <h4>STAY CONNECTED</h4>
                     </div>
                     <div className="row text-center">
                         <div className="col-12">
@@ -41,7 +41,7 @@ function Footer() {
             <div className="row p-3" style={{ backgroundColor: 'rgb(47, 53, 50)', minHeight: '70' }}>
                 <div className="col-12">
                     <div className="row text-center pt-3 text-white font-baskerville">
-                        <h3>BROWSE BOOKS</h3>
+                        <h4>BROWSE BOOKS</h4>
                     </div>
                     <div className="row">
                         <div className="col-md-3">
@@ -100,7 +100,7 @@ function Footer() {
                         <div className="col-3 ms-5 p-2" style={{color:'grey'}}>
                            &copy; COPYRIGHT 2022 BookSea by Liga
                         </div>
-                        <div className="col-4 me-5 p-2" style={{color:'silver'}}>
+                        <div className="col-4 me-5 p-2" style={{color:'grey'}}>
                             TERMS AND CONDITIONS &#9679; PRIVACY POLICY
                         </div>
                     </div>
