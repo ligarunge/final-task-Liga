@@ -13,16 +13,23 @@ function Category() {
             category.titleItem.toLowerCase().includes(keyWord.toLowerCase()))
         .map((itemProp, i) => {
             return (
-                <div className="col-md-2 m-3">
-                    <img src={itemProp.imgItem} key={i} className="img-fluid rounded m-2" alt="cover" style={{ height: '20rem' }} />
+                <div className="col-md-2 mb-5 mt-5 m-1 rounded text-center">
+                    <img src={itemProp.imgItem} key={i} className="img-fluid img-responsive rounded m-2" alt="cover" style={{ height: '20rem' }} />
                 </div>
             )
         })
 
     return (
         <div className="container-fluid" style={{ backgroundImage: "url(/Images/booksHand.jpg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className="row ms-5 pt-5 justify-content-end">
+                        <div className="col-md-11 pt-5 mt-3 ms-5">
+                            <h1 className="font-baskerville">
+                                    {category.title}
+                                </h1>
+                        </div>
+                    </div>
             <div className="row justify-content-end align-middle pt-5">
-                <div className="col-md-3 pt-5 mt-5">
+                <div className="col-md-3">
                     <input
                         type="text"
                         value={keyWord}
@@ -32,7 +39,7 @@ function Category() {
                     </svg></span>
                 </div>
             </div>
-            <div className="row p-3 ms-5 me-5">
+            <div className="row justify-content-around ms-5 me-5">
                 {itemPropsList}
             </div>
         </div>

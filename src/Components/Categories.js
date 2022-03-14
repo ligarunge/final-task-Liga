@@ -29,15 +29,17 @@ function Categories() {
                     </div>
                     <div className="row m-4">
                         {category.itemProps
-                        .slice(0, 6)
-                        .map((itemProp, j) => {
-                            return (
-                                <div className="col-md-2 p-0">
-                                    <img src={itemProp.imgItem} className="img-fluid rounded" style={{ height: '13rem' }} alt="cover" />
-                                </div>
-                            )
-                        }
-                        )}
+                            .slice(0, 6)
+                            .map((itemProp, j) => {
+                                return (
+                                    <div className="col-md-2 p-0" key={j}>
+                                        <a href={itemProp.imgItem} data-fancybox="galleryCategory">
+                                            <img src={itemProp.imgItem} className="img-fluid rounded" style={{ height: '13rem' }} alt="cover" />
+                                        </a>
+                                    </div>
+                                )
+                            }
+                            )}
                     </div>
                 </div>
             </div>

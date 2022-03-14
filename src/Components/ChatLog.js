@@ -36,7 +36,7 @@ function ChatLog() {
     return (
         <div>
             <div className="row justify-content-center m-2">
-                <div className="col-12 rounded" style={{ height: '20rem', backgroundColor: 'whitesmoke', overflowY: 'scroll' }}>
+                <div className="col-12 rounded" style={{ height: '18rem', backgroundColor: 'whitesmoke', overflowY: 'scroll' }}>
                     {messageList}
                 </div>
             </div>
