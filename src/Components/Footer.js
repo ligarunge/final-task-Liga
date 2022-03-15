@@ -96,7 +96,7 @@ function Footer() {
                 </div>
                 
             </div>
-            <div className="row justify-content-between font-baskerville" style={{backgroundColor:'black'}}>
+            <div className="row justify-content-between font-baskerville" style={{backgroundColor:'black', fontSize:'0.9rem'}}>
                         <div className="col-3 ms-5 p-2" style={{color:'grey'}}>
                            &copy; COPYRIGHT 2022 BookSea by Liga
                         </div>

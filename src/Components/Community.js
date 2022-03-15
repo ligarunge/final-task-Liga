@@ -25,8 +25,7 @@ function Community() {
                             Small talk? No, thanks. Homework? Pass. <span style={{ textShadow: '2px 2px 4px #000000' }}>BookSea</span> is all about enjoying books,
                             company, and beverages — without having to think of something smart to say. Founded in 2021 by a couple of friends who
                             liked to read in companionable silence, <span style={{ textShadow: '2px 2px 4px #000000' }}>BookSea</span>
-                            now has over 240 “chapters” (that's a group) who gather across 30+ countries to read together in silence. Though this book club
-                            is ideal for introverts, that's not to say it isn't social. <span style={{ textShadow: '2px 2px 4px #000000' }}>BookSea</span>  is all
+                            now has over 240 “chapters” (that's a group) who gather across 30+ countries to read together in silence. <span style={{ textShadow: '2px 2px 4px #000000' }}>BookSea</span>  is all
                             about community. They think it's important to put down our phones and be “real, live, breathing-the-same-air social”. Sure, nobody's
                             forcing you to make small talk over a glass of wine,
                             but you can sit with a book and a friend in a cafe, and if you want to chat about what you're reading — go for it!

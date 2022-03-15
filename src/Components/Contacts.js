@@ -8,10 +8,10 @@ function Contacts() {
                 <h3 className="ms-3">Our location if you ever in a mood to meet up:</h3>
             </div>
             <div className="row ps-5">
-                <div className="col-md-7 p-3">
+                <div className="col-md-6 p-3">
                     <GoogleMap />
                 </div>
-                <div className="col-md-5">
+                <div className="col-md-6">
                     <div className="row ps-3 pe-5 font-baskerville">
                         <h3>Head office</h3>
                         <h6>Park of Ebelmuiza</h6>

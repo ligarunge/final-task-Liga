@@ -67,17 +67,15 @@ function Grid() {
                                 </div>
                             </div>
                         </div>
-
                         <div className="col-6 px-0">
                             <img src="/images/coverSq6.jpg" className="img-fluid" alt="cover" />
                         </div>
-
                     </div>
                 </div>
                 <div className="col-md-4 px-0">
                     <div className="row">
                         <div className="col-12">
-                            <img src="/images/kids1.jpg" className="img-fluid" alt="cover" />
+                            <img src="/images/coverSq10.jpg" className="img-fluid" alt="cover" />
                         </div>
                     </div>
                     <div className="row g-0">
