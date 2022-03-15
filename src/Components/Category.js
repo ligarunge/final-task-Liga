@@ -35,9 +35,9 @@ function Category() {
     }
 
     const itemPropsList = category.itemProps
-        .filter(category => keyWord === '' ||
-            category.titleItem.toLowerCase().includes(keyWord.toLowerCase()))
         .slice(tenItems, nextTen)
+        .filter(category => keyWord === '' ||
+        category.titleItem.toLowerCase().includes(keyWord.toLowerCase()))
         .map((itemProp, i) => {
             return (
                 <div className="col-md-2 mb-5 mt-5 m-1 rounded text-center">

@@ -14,7 +14,6 @@ function CreateNewMessage(props) {
         await loadMessages()
         setMessageCreating(false)
         setNewMessage('')
-
     }
 
     return (

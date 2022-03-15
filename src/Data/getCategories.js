@@ -243,6 +243,10 @@ function getCategories() {
                     titleItem: 'Charlie and the chocolate factory',
                 },
                 {
+                    imgItem: '/images/kidsPippi.jpg',
+                    titleItem: 'Pippi Longstocking',
+                },
+                {
                     imgItem: '/images/coverKids11.jpg',
                     titleItem: 'Gruffalo',
                 },
@@ -256,11 +260,19 @@ function getCategories() {
                 },
                 {
                     imgItem: '/images/kids14.jpg',
-                    titleItem: 'Kas notiek Dizmeza?',
+                    titleItem: 'This moose belongs to me',
                 },
                 {
                     imgItem: '/images/kids3.jpg',
                     titleItem: 'Sam and Pam',
+                },
+                {
+                    imgItem: '/images/kids15.jpg',
+                    titleItem: 'Kas notiek Dizmeza?',
+                },
+                {
+                    imgItem: '/images/coverKidsHarry.jpg',
+                    titleItem: 'Harry Potter',
                 },
             ],
         },
