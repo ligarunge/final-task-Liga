@@ -92,18 +92,35 @@ function Footer() {
                                 Cooking
                             </div>
                         </div>
+                        <div className="col-md-3 mt-5 text-end">
+                            <div className="row">
+                                <div className="col-12">
+                                    <button className="btn btn-outline-light m-3" style={{width: '10rem'}}>
+                                        <Link to="/chat" className="link-white font-baskerville">Say Hello</Link>
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-12">
+                                    <button className="btn btn-outline-light m-3" style={{width: '10rem'}}>
+                                        <Link to="/aboutus" className="link-white font-baskerville">About us</Link>
+                                    </button>
+                                </div>
+                            </div>
+                           
+                        </div>
                     </div>
                 </div>
-                
+
             </div>
-            <div className="row justify-content-between font-baskerville" style={{backgroundColor:'black', fontSize:'0.9rem'}}>
-                        <div className="col-3 ms-5 p-2" style={{color:'grey'}}>
-                           &copy; COPYRIGHT 2022 BookSea by Liga
-                        </div>
-                        <div className="col-4 me-5 p-2" style={{color:'grey'}}>
-                            TERMS AND CONDITIONS &#9679; PRIVACY POLICY
-                        </div>
-                    </div>
+            <div className="row justify-content-between font-baskerville" style={{ backgroundColor: 'black', fontSize: '0.9rem' }}>
+                <div className="col-3 ms-5 p-2" style={{ color: 'grey' }}>
+                    &copy; COPYRIGHT 2022 BookSea by Liga
+                </div>
+                <div className="col-4 me-5 p-2" style={{ color: 'grey' }}>
+                    TERMS AND CONDITIONS &#9679; PRIVACY POLICY
+                </div>
+            </div>
         </div>
     )
 }
