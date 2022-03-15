@@ -5,6 +5,9 @@
 .link-white:hover {
     color:black;
 }
+.blue:hover {
+color: lightblue;
+}
 .y {
-    color:rgb(203, 229, 240);
+    color:rgb(21, 66, 66);
 }

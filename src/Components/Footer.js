@@ -51,13 +51,13 @@ function Footer() {
                         </div>
                         <div className="col-md-2 mt-4 font-baskerville">
                             <div className="row">
-                                <Link to="/categories" className="link-white g-0">All categories</Link>
+                                <Link to="/categories" className="link-white blue g-0">All categories</Link>
                             </div>
                             <div className="row">
-                                <Link to="/categories/0" className="link-white g-0">Fiction</Link>
+                                <Link to="/categories/0" className="link-white blue g-0">Fiction</Link>
                             </div>
                             <div className="row">
-                                <Link to="/categories/1" className="link-white g-0">Crime and Mystery</Link>
+                                <Link to="/categories/1" className="link-white blue g-0">Crime and Mystery</Link>
                             </div>
                             <div className="row text-white">
                                 Science Fiction
@@ -74,7 +74,7 @@ function Footer() {
                         </div>
                         <div className="col-md-2 mt-4 font-baskerville">
                             <div className="row">
-                                <Link to="/categories/2" className="link-white g-0">Children's</Link>
+                                <Link to="/categories/2" className="link-white blue g-0">Children's</Link>
                             </div>
                             <div className="row text-white">
                                 Health and Fitness
