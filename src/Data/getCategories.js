@@ -7,12 +7,12 @@ function getCategories() {
             img: '/images/cover24.jpg',
             itemProps: [
                 {
-                    imgItem: '/images/fiction0.jpg',
-                    titleItem: 'Como agua para chocolate',
-                },
-                {
                     imgItem: '/images/cover8.jpg',
                     titleItem: 'The paper palace',
+                },
+                {
+                    imgItem: '/images/fictionCat2.jpg',
+                    titleItem: 'The guest cat',
                 },
                 {
                     imgItem: '/images/cover4.jpg',
@@ -79,12 +79,12 @@ function getCategories() {
                     titleItem: 'Illness lesson',
                 },
                 {
-                    imgItem: '/images/fiction7.jpg',
-                    titleItem: 'Woman of state',
+                    imgItem: '/images/fictionWomen.jpg',
+                    titleItem: 'Little woman women',
                 },
                 {
-                    imgItem: '/images/fiction8.jpg',
-                    titleItem: 'Woman of God',
+                    imgItem: '/images/fictionCat.jpg',
+                    titleItem: 'How to think like a cat',
                 },
                 {
                     imgItem: '/images/fiction9.jpg',
