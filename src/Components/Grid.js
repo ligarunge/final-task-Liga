@@ -75,7 +75,7 @@ function Grid() {
                 <div className="col-md-4 px-0">
                     <div className="row">
                         <div className="col-12">
-                            <img src="/images/coverSq10.jpg" className="img-fluid" alt="cover" />
+                            <img src="/images/simplicity.jpg" className="img-fluid" alt="cover" />
                         </div>
                     </div>
                     <div className="row g-0">
